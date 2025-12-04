@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.auth-container {
+  background: rgba(255, 255, 255, 0.1);
+  width: 292px;
+  height: 426px;
+  border-radius: 17px;
+  position: relative;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 16px;
+  left: 115px;
+  width: 62px;
+  height: 29px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 125px;
+  left: 20px;
+  width: 90px;
+  height: 18px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 252px;
+  height: 45px;
+  border-radius: 17px;
+  position: absolute;
+  top: 151px;
+  left: 20px;
+  padding: 0 15px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+  color: white;
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.3), 
+    0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn {
+  width: 252px;
+  height: 38px;
+  border-radius: 17px;
+  position: absolute;
+  top: 216px;
+  left: 20px;
+  background: rgba(170, 0, 255, 0.5);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.telegram-btn {
+  color: #AE00FF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  position: absolute;
+  top: 302px;
+  left: 60px;
+  width: 190px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 0;
+}
